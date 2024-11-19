@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Dolorosa Fe y Alegria #1</title>
+    <style>
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(30deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 30;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-image: url(IMAGENES/IMAGEN\ INVITACIÓN.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #logo {
+            width: 200px;
+            height: 200px;
+            margin-bottom: px;
+            animation: rotate 5s infinite linear;
+        }
+
+        #enlace-formulario,
+        #enlace-whatsapp {
+            margin-top: 40px;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bold;
+            color: red;
+            background-color: white;
+        }
+
+        #enlace-whatsapp {
+            margin-top: 60px;
+            color: #075E54;
+        }
+    </style>
+</head>
+<body>
+    <p style="font-size: 25pt; line-height: 107%; text-align: center; margin: 0;" id="enlace-formulario">PLATAFORMA DE SOLICITUD DE CUPO</p>
+    <p style="font-size: 17,5pt; line-height: 107%; text-align: center; margin: 30;" id="enlace-formulario">Ingrese a cualquiera de los enlaces según la necesidad requerida:</p>
+    <!-- Logo -->
+    <img src="IMAGENES/LOGOTIPO CORAZON.png" alt="corazón de fe y alegria" id="logo">
+    <!-- Solicitar cupo estudiante  -->
+    <p style="font-size: 17,5pt; line-height: 107%; text-align: center; margin: 0;">
+    <a href="https://forms.gle/vFMLjAuMt9pCt5Ar9" id="enlace-formulario" target="_blank">+CLICK AQUI: Solicitar cupo para estudiante nuevo/a+</a>
+    </p>
+    <!-- Contacto por Whatsapp -->
+    <p style="font-size: 30.0pt; line-height: 107%; text-align: center; margin: 0;">
+        <a id="enlace-whatsapp" target="_blank">+Para hacer consulta por WhatsApp al número: 0964099807+</a>
+        </p>
+</body>
+</html>
